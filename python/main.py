@@ -20,7 +20,7 @@
 # area=math.pi*radius*radius
 # print(area)
 
-import random
+# import random
 # num = random.randint(1,10)
 # print(num)
 # names=["s","v","k","a"]
@@ -30,38 +30,3 @@ import random
 # random.shuffle(nums)
 # print(nums)
 
-#Sys module:
-#import sys
-#print(sys.version)
-
-#sys.argv - contain command line arguments
-# import sys
-# name= sys.argv[1]
-# print("Hello",name)
-# age =15
-# if age<18:
-#     print("not eligible")
-#     sys.exit()
-# print("eligible")  
-
-
-#platform module:
-#it is used to get info about computer operating system release, version, machine, processor, python version, architecture
-import platform
-#platform.system() - return os Name
-print(platform.system())
-#platform.release() - os release
-# print(platform.release())
-# print(platform.version())
-# print(platform.machine()) #return machine architecture
-# print(platform.processor())
-# print(platform.python_version())
-# print(platform.python_implementation())
-
-import platform
-if platform.system()=="windows":
-    print("running on windows")
-elif platform.system()=="linux":
-    print("running on linux")
-else:
-    print("nothing")    

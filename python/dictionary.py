@@ -14,6 +14,8 @@ print(student["name"])
 print(student["age"])
 print(student["city"])
 print(student.get("course"))
+#get() - safest method to check for keys. it returns none if key is not present instead of keyerror
+
 #adding a new key
 #dict_name["new_key"]=value
 student["number"]="1234567"
